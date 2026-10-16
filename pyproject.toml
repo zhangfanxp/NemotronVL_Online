@@ -1,0 +1,15 @@
+[project]
+name = "nemotron-vl-local"
+version = "0.1.0"
+description = "本机运行的 NVIDIA Nemotron VL 图片与视频分析界面"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=5.0,<7.0",
+    "openai>=1.55.0,<3.0",
+    "opencv-python-headless>=4.10.0,<5.0",
+    "python-dotenv>=1.0.1,<2.0",
+]
+
+[tool.uv]
+package = false
